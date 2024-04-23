@@ -36,3 +36,24 @@ dex_import {
 	system_ext_specific: true,
 }
 
+android_app_import {
+	name: "NfcSetup_Sec",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/NfcSetup_Sec/NfcSetup_Sec.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "Nfc_sec",
+	owner: "motorola",
+	apk: "proprietary/system_ext/app/Nfc_sec/Nfc_sec.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}

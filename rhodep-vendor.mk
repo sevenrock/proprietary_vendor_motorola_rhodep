@@ -363,6 +363,25 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
+# NFC
+PRODUCT_COPY_FILES += \
+    vendor/motorola/rhodep/proprietary/system_ext/lib/libnfc-sec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libnfc-sec.so \
+    vendor/motorola/rhodep/proprietary/system_ext/lib/libnfc_sec_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libnfc_sec_jni.so \
+    vendor/motorola/rhodep/proprietary/system_ext/lib64/libnfc-sec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnfc-sec.so \
+    vendor/motorola/rhodep/proprietary/system_ext/lib64/libnfc_sec_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnfc_sec_jni.so \
+    vendor/motorola/rhodep/proprietary/system_ext/lib/nfc_nci_sec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/nfc_nci_sec.so \
+    vendor/motorola/rhodep/proprietary/system_ext/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/nfc_nci_sec.so \
+    vendor/motorola/rhodep/proprietary/system_ext/bin/hw/android.hardware.nfc@1.2-service.sec:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/hw/android.hardware.nfc@1.2-service.sec \
+    vendor/motorola/rhodep/proprietary/system_ext/etc/init/android.hardware.nfc@1.2-service.sec.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/android.hardware.nfc@1.2-service.sec.rc \
+    vendor/motorola/rhodep/proprietary/system_ext/etc/init/init.nfc.sec.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.nfc.sec.rc \
+    vendor/motorola/rhodep/proprietary/vendor/etc/sec_s3nrn4v_hwreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn4v_hwreg.bin \
+    vendor/motorola/rhodep/proprietary/vendor/etc/sec_s3nrn4v_swreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn4v_swreg.bin \
+    vendor/motorola/rhodep/proprietary/vendor/firmware/sec_s3nrn4v_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn4v_firmware.bin
+
+PRODUCT_PACKAGES += \
+    NfcSetup_Sec \
+    Nfc_sec
+
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
