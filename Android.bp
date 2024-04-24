@@ -57,3 +57,56 @@ android_app_import {
 	},
 	system_ext_specific: true,
 }
+
+android_app_import {
+	name: "MotoSignatureApp",
+	owner: "motorola",
+	apk: "proprietary/system/app/MotoSignatureApp/MotoSignatureApp.apk",
+	presigned: true,
+	preprocessed: true,
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "MotorolaSettingsProvider",
+	owner: "motorola",
+	apk: "proprietary/system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.motorola.frameworks.core.addon",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/com.motorola.frameworks.core.addon.jar"],
+}
+
+dex_import {
+	name: "com.motorola.motosignature",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/com.motorola.motosignature.jar"],
+}
+
+dex_import {
+	name: "moto-checkin",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/moto-checkin.jar"],
+}
+
+dex_import {
+	name: "moto-core_services",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/moto-core_services.jar"],
+}
+
+dex_import {
+	name: "moto-settings",
+	owner: "motorola",
+	jars: ["proprietary/system/framework/moto-settings.jar"],
+}
