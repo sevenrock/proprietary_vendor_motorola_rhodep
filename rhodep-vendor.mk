@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/etc/sensors/config/stk3a5x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk3a5x_0.json \
     vendor/motorola/rhodep/proprietary/vendor/etc/sensors/config/stk3a5x_0_DVT1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk3a5x_0_DVT1.json \
     vendor/motorola/rhodep/proprietary/vendor/etc/sensors/config/stk3a5x_0_DVT2.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk3a5x_0_DVT2.json \
-    vendor/motorola/rhodep/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/motorola/rhodep/proprietary/vendor/etc/sensors/proto/descriptor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/descriptor.proto \
     vendor/motorola/rhodep/proprietary/vendor/etc/sensors/proto/mot_barocal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/mot_barocal.proto \
     vendor/motorola/rhodep/proprietary/vendor/etc/sensors/proto/mot_camgest.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/mot_camgest.proto \
