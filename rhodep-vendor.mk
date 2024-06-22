@@ -398,6 +398,65 @@ PRODUCT_PACKAGES += \
     moto-checkin \
     moto-core_services \
     moto-settings
+
+# MotCamera4
+PRODUCT_COPY_FILES += \
+    vendor/motorola/rhodep/proprietary/vendor/etc/permissions/com.motorola.camera3.content.ai.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.content.ai.xml \
+    vendor/motorola/rhodep/proprietary/vendor/etc/permissions/com.motorola.camera3.lens.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.lens.xml \
+    vendor/motorola/rhodep/proprietary/vendor/etc/permissions/com.motorola.camera3.rhodep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.rhodep.xml \
+    vendor/motorola/rhodep/proprietary/product/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.xml \
+    vendor/motorola/rhodep/proprietary/vendor/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.xml \
+    vendor/motorola/rhodep/proprietary/product/etc/permissions/com.motorola.moto-uirefresh.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.moto-uirefresh.xml \
+    vendor/motorola/rhodep/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml \
+    vendor/motorola/rhodep/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera3.xml \
+    vendor/motorola/rhodep/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
+    vendor/motorola/rhodep/proprietary/product/lib64/libAncHumanSegFigureFusion-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libAncHumanSegFigureFusion-jni.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libanc_night.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libanc_night.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_dualcam_refocus.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_high_dynamic_range.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_low_light_shot.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libarcsoft_scbokeh_Generic.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_scbokeh_Generic.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libas-super-slow-motion.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libas-super-slow-motion.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libbarhopper_v3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libbarhopper_v3.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libbg-postproc-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libbg-postproc-jni.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libcamerax_extension_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libcamerax_extension_jni.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libc++_shared.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libc++_shared.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libc++.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libc++.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libdoc-util.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdoc-util.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libdynamic_depth.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdynamic_depth.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libfn-beauty-vfb-legacy-base.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfn-beauty-vfb-legacy-base.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libFNVfbEngineHAL_legacy.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libFNVfbEngineHAL_legacy.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libfoundation.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfoundation.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libgg-dynamic_depth.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgg-dynamic_depth.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libgg-tensorflow-lite.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgg-tensorflow-lite.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libgif.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgif.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libjpeg.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libjpeg.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/liblenovo_panorama.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/liblenovo_panorama.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmcf-base.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-base.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmcf-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-jni.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmcf-qc-fd-offline_local.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-qc-fd-offline_local.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmcf-stand-alone-sm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-stand-alone-sm.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmeishe-nv-effects-thumbnails.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmeishe-nv-effects-thumbnails.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmmcamera_faceproc2.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmorpho_cinema_graph.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_cinema_graph.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmorpho_HDSR.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_HDSR.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmorpho_panorama_gp3_core.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_panorama_gp3_core.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_panorama_gp3.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_sensor_fusion.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmot-cinemagraph-engine.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot-cinemagraph-engine.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmot-util.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot-util.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libmpbase.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmpbase.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libNvBeautyEffect.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libNvBeautyEffect.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libNvEffectSdkCore.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libNvEffectSdkCore.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libqc-snpe.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libqc-snpe.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libtensorflowlite_gpu_delegate.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libtensorflowlite_gpu_delegate.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libtensorflowlite_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libtensorflowlite_jni.so \
+    vendor/motorola/rhodep/proprietary/product/lib64/libtensorflowlite.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libtensorflowlite.so
+
+PRODUCT_PACKAGES += \
+    MotCamera3AI \
+    MotCamera4
+
 PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/product/etc/CarrierSettings/carrier_list.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/carrier_list.pb \
     vendor/motorola/rhodep/proprietary/product/etc/CarrierSettings/others.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/others.pb \
