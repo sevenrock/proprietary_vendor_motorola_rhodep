@@ -44,14 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-focalservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-focalservice.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/init/init.ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ets.rc \
-    vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-mtp-SN100-UICC.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100-UICC.conf \
-    vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
-    vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100_38_4MHZ.conf \
-    vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
-    vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
-    vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
-    vendor/motorola/rhodep/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/motorola/rhodep/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     vendor/motorola/rhodep/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
     vendor/motorola/rhodep/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
@@ -364,18 +356,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@4.0.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.focaltech.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.focaltech.fingerprint@1.0.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
-
-# NFC
-PRODUCT_COPY_FILES += \
-    vendor/motorola/rhodep/proprietary/system_ext/lib/libnfc-sec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libnfc-sec.so \
-    vendor/motorola/rhodep/proprietary/system_ext/lib/libnfc_sec_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libnfc_sec_jni.so \
-    vendor/motorola/rhodep/proprietary/system_ext/lib64/libnfc-sec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnfc-sec.so \
-    vendor/motorola/rhodep/proprietary/system_ext/lib64/libnfc_sec_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnfc_sec_jni.so \
-    vendor/motorola/rhodep/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service.sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.sec.rc \
-    vendor/motorola/rhodep/proprietary/vendor/etc/init/init.nfc.sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.sec.rc \
-    vendor/motorola/rhodep/proprietary/vendor/etc/sec_s3nrn4v_hwreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn4v_hwreg.bin \
-    vendor/motorola/rhodep/proprietary/vendor/etc/sec_s3nrn4v_swreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn4v_swreg.bin \
-    vendor/motorola/rhodep/proprietary/vendor/firmware/sec_s3nrn4v_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn4v_firmware.bin
 
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
