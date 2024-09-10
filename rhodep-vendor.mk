@@ -7,9 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/motorola/rhodep/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-focalservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-focalservice \
-    vendor/motorola/rhodep/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
-    vendor/motorola/rhodep/proprietary/vendor/bin/egis_ident:$(TARGET_COPY_OUT_VENDOR)/bin/egis_ident \
     vendor/motorola/rhodep/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/rhodep/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
     vendor/motorola/rhodep/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
@@ -41,9 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/motorola/rhodep/proprietary/vendor/etc/camera/vidhance_calibration_2rd:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_2rd \
     vendor/motorola/rhodep/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
-    vendor/motorola/rhodep/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-focalservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-focalservice.rc \
-    vendor/motorola/rhodep/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc \
-    vendor/motorola/rhodep/proprietary/vendor/etc/init/init.ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ets.rc \
     vendor/motorola/rhodep/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     vendor/motorola/rhodep/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
     vendor/motorola/rhodep/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
@@ -283,7 +277,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.mcx.usecase.extension.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
-    vendor/motorola/rhodep/proprietary/vendor/lib64/hw/fingerprint.focaltech.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.focaltech.default.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/hw/libfactorylib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libfactorylib.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libBSTSWAD.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBSTSWAD.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRbsFlow.so \
@@ -308,7 +301,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchilog.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
-    vendor/motorola/rhodep/proprietary/vendor/lib64/libets_teeclient_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_teeclient_v2.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libfcell.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfcell.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipebpsstriping.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libipebpsstriping170.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipebpsstriping170.so \
@@ -353,8 +345,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/rhodep/proprietary/vendor/lib64/libvidhance_zoom_stabilization.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance_zoom_stabilization.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/sensors.moto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.moto.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
-    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@4.0.so \
-    vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.focaltech.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.focaltech.fingerprint@1.0.so \
     vendor/motorola/rhodep/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 PRODUCT_PACKAGES += \
